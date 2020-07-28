@@ -26,5 +26,3 @@ def writeFile(filename, content):
 output = openFile("sample.txt")
 output[0][1] = "new"
 writeFile("new_file.txt", output)
-
-
